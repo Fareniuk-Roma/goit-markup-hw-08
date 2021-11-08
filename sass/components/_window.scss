@@ -134,7 +134,7 @@
 .checkbox {
   display: flex;
   justify-content: center;
-  font-size: 14px;
+  font-size: 12px;
   line-height: 1.2;
   letter-spacing: 0.03em;
   color: var(--primary-text-color);
@@ -145,6 +145,8 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  display: inline-block;
+    vertical-align: middle;
   width: 16px;
   height: 15px;
   border-radius: 3px;
